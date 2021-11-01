@@ -7,6 +7,10 @@ public class ParkingTrigger : MonoBehaviour
     public float timerCountdown = 3.0f; //how long player have to stay in the parking lot
     public bool isPlayerColliding = false; // is the player currently at the location
     public GameObject winPanel;
+    public bool isMoving = true;
+
+
+
 
     // Update is called once per frame
     void Update()
@@ -24,10 +28,11 @@ public class ParkingTrigger : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)//start the collision timer when player enter
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player" && isMoving == true)
         {
             Debug.Log("Player Entered");
             isPlayerColliding = true;
+            
         }
     }
 
@@ -39,9 +44,11 @@ public class ParkingTrigger : MonoBehaviour
             if(timerCountdown <= 0)
             {
                 winPanel.gameObject.SetActive(true);//panel comes out
-                Time.timeScale = 0;//pause real time
-                //panel close
+                isMoving = false;
+                StartCoroutine(HidePanel());//panel close
+                
             }
+            
         }
     }
 
@@ -58,8 +65,12 @@ public class ParkingTrigger : MonoBehaviour
 
     IEnumerator HidePanel()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSecondsRealtime(2);
         winPanel.gameObject.SetActive(false);
+        isMoving = true;
+        
+        
+        
 
     }
 }
