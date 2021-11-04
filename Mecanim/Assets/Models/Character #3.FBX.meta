@@ -1,0 +1,339 @@
+fileFormatVersion: 2
+guid: 622ca6e0ef0d55643aa052e5dbc271d1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Base HumanLDigit054
+    100002: Base HumanLDigit056
+    100004: Base HumanLDigit057
+    100006: Base HumanLDigit058
+    100008: Base HumanLDigit059
+    100010: Base HumanLDigit060
+    100012: Base HumanLDigit061
+    100014: Base HumanLDigit062
+    100016: Base HumanLDigit063
+    100018: Base HumanLDigit064
+    100020: Base HumanLDigit065
+    100022: Base HumanLDigit066
+    100024: Base HumanLDigit067
+    100026: Base HumanLDigit068
+    100028: Base HumanLDigit069
+    100030: Base HumanLDigit070
+    100032: Base HumanLDigit071
+    100034: Base HumanLDigit072
+    100036: Base HumanLDigit073
+    100038: Base HumanLDigit074
+    100040: Base HumanLDigit075
+    100042: Base HumanLDigit076
+    100044: Base HumanLDigit077
+    100046: Base HumanLDigit078
+    100048: Base HumanLDigit079
+    100050: Base HumanLDigit080
+    100052: Base HumanLDigit081
+    100054: Base HumanLDigit082
+    100056: Base HumanLDigit083
+    100058: Base HumanLDigit084
+    100060: Chest
+    100062: Eye Left
+    100064: Eye Right
+    100066: Foot Left
+    100068: Foot Right
+    100070: Hand Left
+    100072: Hand Right
+    100074: Head
+    100076: Hips
+    100078: IK Chain001
+    100080: IK Chain002
+    100082: Jaw
+    100084: Lower Arm Left
+    100086: Lower Arm Right
+    100088: Lower Leg Left
+    100090: Lower Leg Right
+    100092: Neck
+    100094: //RootNode
+    100096: Robot
+    100098: Shoulder Left
+    100100: Shoulder Right
+    100102: Spine
+    100104: Toe Left
+    100106: Toe Right
+    100108: Upper Arm Left
+    100110: Upper Arm Right
+    100112: Upper Leg Left
+    100114: Upper Leg Right
+    400000: Base HumanLDigit054
+    400002: Base HumanLDigit056
+    400004: Base HumanLDigit057
+    400006: Base HumanLDigit058
+    400008: Base HumanLDigit059
+    400010: Base HumanLDigit060
+    400012: Base HumanLDigit061
+    400014: Base HumanLDigit062
+    400016: Base HumanLDigit063
+    400018: Base HumanLDigit064
+    400020: Base HumanLDigit065
+    400022: Base HumanLDigit066
+    400024: Base HumanLDigit067
+    400026: Base HumanLDigit068
+    400028: Base HumanLDigit069
+    400030: Base HumanLDigit070
+    400032: Base HumanLDigit071
+    400034: Base HumanLDigit072
+    400036: Base HumanLDigit073
+    400038: Base HumanLDigit074
+    400040: Base HumanLDigit075
+    400042: Base HumanLDigit076
+    400044: Base HumanLDigit077
+    400046: Base HumanLDigit078
+    400048: Base HumanLDigit079
+    400050: Base HumanLDigit080
+    400052: Base HumanLDigit081
+    400054: Base HumanLDigit082
+    400056: Base HumanLDigit083
+    400058: Base HumanLDigit084
+    400060: Chest
+    400062: Eye Left
+    400064: Eye Right
+    400066: Foot Left
+    400068: Foot Right
+    400070: Hand Left
+    400072: Hand Right
+    400074: Head
+    400076: Hips
+    400078: IK Chain001
+    400080: IK Chain002
+    400082: Jaw
+    400084: Lower Arm Left
+    400086: Lower Arm Right
+    400088: Lower Leg Left
+    400090: Lower Leg Right
+    400092: Neck
+    400094: //RootNode
+    400096: Robot
+    400098: Shoulder Left
+    400100: Shoulder Right
+    400102: Spine
+    400104: Toe Left
+    400106: Toe Right
+    400108: Upper Arm Left
+    400110: Upper Arm Right
+    400112: Upper Leg Left
+    400114: Upper Leg Right
+    2300000: Base HumanLDigit054
+    2300002: Base HumanLDigit056
+    2300004: Base HumanLDigit057
+    2300006: Base HumanLDigit058
+    2300008: Base HumanLDigit059
+    2300010: Base HumanLDigit060
+    2300012: Base HumanLDigit061
+    2300014: Base HumanLDigit062
+    2300016: Base HumanLDigit063
+    2300018: Base HumanLDigit064
+    2300020: Base HumanLDigit065
+    2300022: Base HumanLDigit066
+    2300024: Base HumanLDigit067
+    2300026: Base HumanLDigit068
+    2300028: Base HumanLDigit069
+    2300030: Base HumanLDigit070
+    2300032: Base HumanLDigit071
+    2300034: Base HumanLDigit072
+    2300036: Base HumanLDigit073
+    2300038: Base HumanLDigit074
+    2300040: Base HumanLDigit075
+    2300042: Base HumanLDigit076
+    2300044: Base HumanLDigit077
+    2300046: Base HumanLDigit078
+    2300048: Base HumanLDigit079
+    2300050: Base HumanLDigit080
+    2300052: Base HumanLDigit081
+    2300054: Base HumanLDigit082
+    2300056: Base HumanLDigit083
+    2300058: Base HumanLDigit084
+    2300060: Chest
+    2300062: Eye Left
+    2300064: Eye Right
+    2300066: Foot Left
+    2300068: Foot Right
+    2300070: Hand Left
+    2300072: Hand Right
+    2300074: Head
+    2300076: Hips
+    2300078: Jaw
+    2300080: Lower Arm Left
+    2300082: Lower Arm Right
+    2300084: Lower Leg Left
+    2300086: Lower Leg Right
+    2300088: Neck
+    2300090: Shoulder Left
+    2300092: Shoulder Right
+    2300094: Spine
+    2300096: Toe Left
+    2300098: Toe Right
+    2300100: Upper Arm Left
+    2300102: Upper Arm Right
+    2300104: Upper Leg Left
+    2300106: Upper Leg Right
+    3300000: Base HumanLDigit054
+    3300002: Base HumanLDigit056
+    3300004: Base HumanLDigit057
+    3300006: Base HumanLDigit058
+    3300008: Base HumanLDigit059
+    3300010: Base HumanLDigit060
+    3300012: Base HumanLDigit061
+    3300014: Base HumanLDigit062
+    3300016: Base HumanLDigit063
+    3300018: Base HumanLDigit064
+    3300020: Base HumanLDigit065
+    3300022: Base HumanLDigit066
+    3300024: Base HumanLDigit067
+    3300026: Base HumanLDigit068
+    3300028: Base HumanLDigit069
+    3300030: Base HumanLDigit070
+    3300032: Base HumanLDigit071
+    3300034: Base HumanLDigit072
+    3300036: Base HumanLDigit073
+    3300038: Base HumanLDigit074
+    3300040: Base HumanLDigit075
+    3300042: Base HumanLDigit076
+    3300044: Base HumanLDigit077
+    3300046: Base HumanLDigit078
+    3300048: Base HumanLDigit079
+    3300050: Base HumanLDigit080
+    3300052: Base HumanLDigit081
+    3300054: Base HumanLDigit082
+    3300056: Base HumanLDigit083
+    3300058: Base HumanLDigit084
+    3300060: Chest
+    3300062: Eye Left
+    3300064: Eye Right
+    3300066: Foot Left
+    3300068: Foot Right
+    3300070: Hand Left
+    3300072: Hand Right
+    3300074: Head
+    3300076: Hips
+    3300078: Jaw
+    3300080: Lower Arm Left
+    3300082: Lower Arm Right
+    3300084: Lower Leg Left
+    3300086: Lower Leg Right
+    3300088: Neck
+    3300090: Shoulder Left
+    3300092: Shoulder Right
+    3300094: Spine
+    3300096: Toe Left
+    3300098: Toe Right
+    3300100: Upper Arm Left
+    3300102: Upper Arm Right
+    3300104: Upper Leg Left
+    3300106: Upper Leg Right
+    4300000: Hips
+    4300002: Upper Leg Left
+    4300004: Lower Leg Left
+    4300006: Foot Left
+    4300008: Toe Left
+    4300010: Spine
+    4300012: Chest
+    4300014: Shoulder Left
+    4300016: Upper Arm Left
+    4300018: Lower Arm Left
+    4300020: Hand Left
+    4300022: Base HumanLDigit056
+    4300024: Base HumanLDigit057
+    4300026: Base HumanLDigit058
+    4300028: Base HumanLDigit059
+    4300030: Base HumanLDigit060
+    4300032: Base HumanLDigit061
+    4300034: Base HumanLDigit062
+    4300036: Base HumanLDigit063
+    4300038: Base HumanLDigit064
+    4300040: Base HumanLDigit065
+    4300042: Base HumanLDigit054
+    4300044: Base HumanLDigit066
+    4300046: Base HumanLDigit067
+    4300048: Base HumanLDigit068
+    4300050: Base HumanLDigit069
+    4300052: Neck
+    4300054: Head
+    4300056: Eye Right
+    4300058: Jaw
+    4300060: Eye Left
+    4300062: Shoulder Right
+    4300064: Upper Arm Right
+    4300066: Lower Arm Right
+    4300068: Hand Right
+    4300070: Base HumanLDigit072
+    4300072: Base HumanLDigit071
+    4300074: Base HumanLDigit078
+    4300076: Base HumanLDigit074
+    4300078: Base HumanLDigit075
+    4300080: Base HumanLDigit076
+    4300082: Base HumanLDigit077
+    4300084: Base HumanLDigit070
+    4300086: Base HumanLDigit079
+    4300088: Base HumanLDigit080
+    4300090: Base HumanLDigit081
+    4300092: Base HumanLDigit073
+    4300094: Base HumanLDigit083
+    4300096: Base HumanLDigit082
+    4300098: Base HumanLDigit084
+    4300100: Upper Leg Right
+    4300102: Lower Leg Right
+    4300104: Foot Right
+    4300106: Toe Right
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0299999993
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 1
+  userData: 
