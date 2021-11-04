@@ -5,11 +5,16 @@ using UnityEngine;
 public class Passenger : MonoBehaviour
 {
     public GameObject passenger;
+    public GameObject destination;
+    public Collider passengerCollider;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        passenger = GameObject.FindGameObjectWithTag("Passenger");
+        destination = GameObject.FindGameObjectWithTag("Destination");
+        TaxiManager taxi = GetComponent<TaxiManager>();
+        passengerCollider = GetComponent<Collider>();
     }
 
     // Update is called once per frame
@@ -18,8 +23,14 @@ public class Passenger : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter()
+    private void OnTriggerStay(Collider other)
     {
-        passenger.SetActive(false);
+        if (other.gameObject.CompareTag("Destination") && GetComponent<TaxiManager>().passengerInTaxi == true)
+        {
+            {
+                passenger.transform.SetParent(p: null);
+                passenger.SetActive(true);
+            }
+        }
     }
 }
