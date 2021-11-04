@@ -1164,6 +1164,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 151373898}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &161273068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8570845311385192816, guid: 71bf02b3e6c4c274d841fc0a491986ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 225066825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &161273072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161273068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d2489f6d055404ea732b3080afed82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passenger: {fileID: 34305045}
+  passengerInTaxi: 0
+  passengerNotInTaxi: 0
 --- !u!1001 &190812611
 PrefabInstance:
   m_ObjectHideFlags: 0
