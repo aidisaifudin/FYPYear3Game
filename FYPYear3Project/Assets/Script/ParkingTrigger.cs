@@ -44,7 +44,7 @@ public class ParkingTrigger : MonoBehaviour
 
     public void OnTriggerStay(Collider other)//check if player is still at location
     {
-        if(other.gameObject.tag == "Player" && isPlayerColliding == true)
+        if(other.gameObject.tag == "carPlayer" && isPlayerColliding == true)
         {
             isTimer = true;
             Debug.Log(timerCountdown);
@@ -61,7 +61,7 @@ public class ParkingTrigger : MonoBehaviour
 
     public void OnTriggerExit(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "carPlayer")
         {
             
             isPlayerColliding = false;
