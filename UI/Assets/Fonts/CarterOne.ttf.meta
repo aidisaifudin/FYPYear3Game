@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1d7a867566609b246ac6821658154f20
+timeCreated: 1502029206
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Carter One
+  fontNames:
+  - Carter One
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
