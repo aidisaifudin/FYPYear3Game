@@ -7,6 +7,7 @@ public class Passenger : MonoBehaviour
     public GameObject passenger;
     public GameObject destination;
     public Collider passengerCollider;
+    public bool passengerNotInTaxi;
 
     // Start is called before the first frame update
     void Start()
@@ -15,22 +16,27 @@ public class Passenger : MonoBehaviour
         destination = GameObject.FindGameObjectWithTag("Destination");
         TaxiManager taxi = GetComponent<TaxiManager>();
         passengerCollider = GetComponent<Collider>();
+        passengerNotInTaxi = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.CompareTag("Destination") && GetComponent<TaxiManager>().passengerInTaxi == true)
+        if (passengerNotInTaxi)
         {
-            {
-                passenger.transform.SetParent(p: null);
-                passenger.SetActive(true);
-            }
+            passengerCollider.enabled = !enabled;
         }
     }
+
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (other.gameObject.CompareTag("Destination") && GetComponent<TaxiManager>().passengerInTaxi == true)
+    //    {
+    //        {
+    //            passenger.transform.SetParent(p: null);
+    //            passenger.SetActive(true);
+    //            passengerNotInTaxi = true;
+    //        }
+    //    }
+    //}
 }
