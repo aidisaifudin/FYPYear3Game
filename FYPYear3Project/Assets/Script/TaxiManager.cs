@@ -33,21 +33,6 @@ public class TaxiManager : MonoBehaviour
         if (other.gameObject.tag == "Passenger")
         {
             passengerInTaxi = true;
-            //passenger.transform.SetParent(p: null);
-           
-
         }
     }
-
-    //private void OnTriggerStay(Collider other)
-    //{
-    //    if (other.gameObject.tag == "Destination" && passengerInTaxi == true)
-    //    {
-    //        {
-    //            passenger.transform.SetParent(p: null);
-    //            passenger.SetActive(true);
-    //            //GetComponent<Passenger>().passengerNotInTaxi = true;
-    //        }
-    //    }
-    //}
 }
