@@ -261,7 +261,6 @@ GameObject:
   - component: {fileID: 34305048}
   - component: {fileID: 34305047}
   - component: {fileID: 34305046}
-  - component: {fileID: 34305050}
   m_Layer: 0
   m_Name: Passenger
   m_TagString: Passenger
@@ -346,22 +345,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &34305050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 34305045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 723777732925bfa4ca7759757b2522ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  passenger: {fileID: 34305045}
-  destination: {fileID: 865514890}
-  passengerCollider: {fileID: 34305046}
-  passengerNotInTaxi: 0
 --- !u!1001 &66390256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3590,6 +3573,7 @@ GameObject:
   - component: {fileID: 865514893}
   - component: {fileID: 865514892}
   - component: {fileID: 865514891}
+  - component: {fileID: 865514895}
   m_Layer: 0
   m_Name: Destination
   m_TagString: Destination
@@ -3673,6 +3657,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &865514895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865514890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723777732925bfa4ca7759757b2522ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passenger: {fileID: 34305045}
+  destination: {fileID: 865514890}
+  passengerCollider: {fileID: 34305046}
+  passengerNotInTaxi: 0
+  AidiCar: {fileID: 161273068}
 --- !u!1001 &878271607
 PrefabInstance:
   m_ObjectHideFlags: 0
