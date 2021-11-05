@@ -4,17 +4,33 @@ using UnityEngine;
 
 public class TaxiManager : MonoBehaviour
 {
-    public Passenger passenger;
+    public GameObject passenger;
+    public bool passengerInTaxi;
+    public bool passengerNotInTaxi;
     
     // Start is called before the first frame update
     void Start()
     {
-        passenger = FindObjectOfType<Passenger>();
+        passenger = GameObject.FindGameObjectWithTag("Passenger");
+        passengerInTaxi = false;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(passengerInTaxi)
+        {
+            passenger.transform.SetParent(this.transform);
+            passenger.SetActive(false);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Passenger"))
+        {
+            passengerInTaxi = true;
+        }
     }
 }

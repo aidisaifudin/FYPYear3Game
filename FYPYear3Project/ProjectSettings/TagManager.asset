@@ -5,7 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - CarPlayer
+<<<<<<< Updated upstream
   - NpcCars
+=======
+  - Passenger
+  - Destination
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
