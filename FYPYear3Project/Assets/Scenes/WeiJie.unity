@@ -261,6 +261,7 @@ GameObject:
   - component: {fileID: 34305048}
   - component: {fileID: 34305047}
   - component: {fileID: 34305046}
+  - component: {fileID: 34305050}
   m_Layer: 0
   m_Name: Passenger
   m_TagString: Passenger
@@ -345,6 +346,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &34305050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34305045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723777732925bfa4ca7759757b2522ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passenger: {fileID: 34305045}
+  destination: {fileID: 865514890}
+  passengerCollider: {fileID: 34305046}
 --- !u!1001 &66390256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3525,7 +3541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5235a6765394ed1468be89f6129345a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 5, z: 0}
+  offset: {x: 0, y: 5, z: -10}
   target: {fileID: 1929547010}
   translateSpeed: 5
   rotationSpeed: 5
