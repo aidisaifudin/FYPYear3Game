@@ -22,9 +22,9 @@ public class TaxiManager : MonoBehaviour
     {
         if(passengerInTaxi)
         {
-            passenger.transform.SetParent(this.transform);
-            Debug.Log("Passenger is in!");
-            passenger.SetActive(false);
+            //passenger.transform.SetParent(this.transform);
+            Destroy(passenger);
+            Debug.Log("Gone");
         }
     }
 

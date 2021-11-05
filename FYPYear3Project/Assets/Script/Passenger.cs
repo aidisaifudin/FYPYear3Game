@@ -9,6 +9,7 @@ public class Passenger : MonoBehaviour
     public Collider passengerCollider;
     public bool passengerNotInTaxi;
     public GameObject AidiCar;
+    public GameObject passenger2;
 
     // Start is called before the first frame update
     void Start()
@@ -24,21 +25,16 @@ public class Passenger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (passengerNotInTaxi)
-        {
-            passengerCollider.enabled = !enabled;
-        }
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player") && GetComponent<TaxiManager>().passengerInTaxi == true)
+    if (other.gameObject.tag == "Player")
         {
-            {
-                passenger.transform.SetParent(p: null);
-                passenger.SetActive(true);
-                passengerNotInTaxi = true;
-            }
+            Debug.Log("Passenger is out");
+            passenger2.SetActive(true);
+            //passenger.transform.SetParent(p: null);
         }
     }
 }
