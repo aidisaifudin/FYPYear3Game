@@ -23,27 +23,31 @@ public class TaxiManager : MonoBehaviour
         if(passengerInTaxi)
         {
             passenger.transform.SetParent(this.transform);
+            Debug.Log("Passenger is in!");
             passenger.SetActive(false);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Passenger"))
+        if (other.gameObject.tag == "Passenger")
         {
             passengerInTaxi = true;
+            //passenger.transform.SetParent(p: null);
+           
+
         }
     }
 
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.CompareTag("Destination") && passengerInTaxi == true)
-        {
-            {
-                passenger.transform.SetParent(p: null);
-                passenger.SetActive(true);
-                GetComponent<Passenger>().passengerNotInTaxi = true;
-            }
-        }
-    }
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (other.gameObject.tag == "Destination" && passengerInTaxi == true)
+    //    {
+    //        {
+    //            passenger.transform.SetParent(p: null);
+    //            passenger.SetActive(true);
+    //            //GetComponent<Passenger>().passengerNotInTaxi = true;
+    //        }
+    //    }
+    //}
 }
