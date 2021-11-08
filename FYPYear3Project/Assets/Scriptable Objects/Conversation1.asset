@@ -10,24 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8329772ae7502ab42a52200b7e6c519a, type: 3}
-  m_Name: New Conversation
+  m_Name: Conversation1
   m_EditorClassIdentifier: 
-  speakerLeft: {fileID: 11400000, guid: 1857f01fb27e2104ea71c0ae1fa08d9b, type: 2}
-  speakerRight: {fileID: 11400000, guid: 4751007cd8789dc4e88a7fefdbe71dae, type: 2}
-  speakerCenter: {fileID: 11400000, guid: 1857f01fb27e2104ea71c0ae1fa08d9b, type: 2}
+  speakerLeft: {fileID: 11400000, guid: 4751007cd8789dc4e88a7fefdbe71dae, type: 2}
+  speakerRight: {fileID: 11400000, guid: 1857f01fb27e2104ea71c0ae1fa08d9b, type: 2}
+  question: {fileID: 0}
+  nextConversation: {fileID: 0}
   lines:
   - character: {fileID: 11400000, guid: 4751007cd8789dc4e88a7fefdbe71dae, type: 2}
-    number: 0
-    text: Hi
+    text: Yo
   - character: {fileID: 11400000, guid: 1857f01fb27e2104ea71c0ae1fa08d9b, type: 2}
-    number: 0
-    text: Hi
+    text: Haloo
   - character: {fileID: 11400000, guid: 4751007cd8789dc4e88a7fefdbe71dae, type: 2}
-    number: 0
-    text: ...
-  - character: {fileID: 11400000, guid: 4751007cd8789dc4e88a7fefdbe71dae, type: 2}
-    number: 0
-    text: Want to buy Insurance
-  - character: {fileID: 11400000, guid: 1857f01fb27e2104ea71c0ae1fa08d9b, type: 2}
-    number: 0
-    text: 
+    text: Yooo

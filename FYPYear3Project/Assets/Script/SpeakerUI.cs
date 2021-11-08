@@ -12,7 +12,7 @@ public class SpeakerUI : MonoBehaviour {
 		get { return speaker; }
 		set {
 			speaker = value;
-			portrait.sprite = speaker.sprite[line.number];
+			
 			fullName.text = speaker.fullName;
 		}
 	}

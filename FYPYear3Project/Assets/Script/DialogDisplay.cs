@@ -1,42 +1,83 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Events;
+using System;
 
+[System.Serializable]
+public class QuestionEvent : UnityEvent<Question>
+{
+    internal void Invoke(Conversation question)
+    {
+        throw new NotImplementedException();
+    }
+}
 public class DialogDisplay : MonoBehaviour {
-	public Conversation conversation;
+    
+    public QuestionEvent questionEvent;
+    public Conversation conversation;
 	public GameObject speakerLeft;
 	public GameObject speakerRight;
-    public GameObject speakerMiddle;
+ 
 
 	SpeakerUI speakerUILeft;
-	SpeakerUI speakerUICenter;
+
 	SpeakerUI speakerUIRight;
 
 	int activeLineIndex = 0;
+    private bool conversationStarted = false;
+
+    public void ChangeConversation(Conversation nextConversation)
+    {
+        conversationStarted = false;
+        conversation = nextConversation;
+        AdvanceLine();
+    }
 
 	void Start() {
 		speakerUILeft = speakerLeft.GetComponent<SpeakerUI>();
 		speakerUIRight = speakerRight.GetComponent<SpeakerUI>();
-        speakerUICenter = speakerMiddle.GetComponent<SpeakerUI>();
+        
 
 		speakerUILeft.Speaker = conversation.speakerLeft;
 		speakerUIRight.Speaker = conversation.speakerRight;
-        speakerUICenter.Speaker = conversation.speakerCenter;
+        
 	}
 
 	void Update() {
 		if(Input.GetKeyDown(KeyCode.Space)) {
-			AdvanceConversation();
+            AdvanceLine();
 		}
+        else if (Input.GetKeyDown("X"))
+        {
+            EndConversation();
+        }
 	}
 
-	void AdvanceConversation() {
-		if(activeLineIndex < conversation.lines.Length) {
-			DisplayLine();
-			activeLineIndex += 1;
-		} else {
-			speakerUILeft.Hide();
-			speakerUIRight.Hide();
-			activeLineIndex = 0;
-		}
+    private void EndConversation()
+    {
+        conversation = null;
+        conversationStarted = false;
+        speakerUILeft.Hide();
+        speakerUIRight.Hide();
+    }
+    public void Initialize()
+    {
+        conversationStarted = true;
+        activeLineIndex = 0;
+        speakerUILeft.Speaker = conversation.speakerLeft;
+        speakerUIRight.Speaker = conversation.speakerRight;
+    }
+	void AdvanceLine() {
+        if (conversation == null) return;
+        if (!conversationStarted) Initialize();
+
+        if (activeLineIndex < conversation.lines.Length)
+            DisplayLine();
+        else { }
+           // AdvancedConversation();
+
 	}
 
 	void DisplayLine() {
@@ -45,23 +86,34 @@ public class DialogDisplay : MonoBehaviour {
 		Character Character = line.character;
 
 		if(speakerUILeft.SpeakerIs(Character)) {
-			SetDialog(speakerUILeft, speakerUIRight,speakerUICenter, line.text);
+			SetDialog(speakerUILeft, speakerUIRight, line.text);
 		} 
-        else if (speakerUIRight.SpeakerIs(Character))
+        else 
         {
-			SetDialog(speakerUIRight, speakerUILeft,speakerUICenter, line.text);
+			SetDialog(speakerUIRight, speakerUILeft, line.text);
 		}
-        else if(speakerUICenter.SpeakerIs(Character))
-        {
-            SetDialog(speakerUICenter, speakerUILeft,speakerUIRight, line.text);
-           // SetDialog(speakerUIRight, speakerUIRight, line.text);
-        }
+        activeLineIndex += 1;
 	}
+    private void AdvancedConversation()
+    {
+        // These are really three types of dialog tree node
+        // and should be three different objects with a standard interface
+        if (conversation.question != null)
+        {
+            questionEvent.Invoke(conversation.question);
+        }
+        else if (conversation.nextConversation != null)
+            ChangeConversation(conversation.nextConversation);
+        else
+            EndConversation();
+            
+    }
 
-	void SetDialog(SpeakerUI activeSpeakerUI, SpeakerUI inactiveSpeakerUI,SpeakerUI inactiveSpeakerUI2, string text) {
+    void SetDialog(SpeakerUI activeSpeakerUI, SpeakerUI inactiveSpeakerUI, string text) {
 		activeSpeakerUI.Dialog = text;
 		activeSpeakerUI.Show();
 		inactiveSpeakerUI.Hide();
-        inactiveSpeakerUI2.Hide();
+
 	}
+
 }
