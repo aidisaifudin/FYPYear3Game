@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TaxiManager : MonoBehaviour
 {
     public GameObject passenger;
     public bool passengerInTaxi;
     public GameObject destination;
+    //public GameObject arrow;
 
     // Start is called before the first frame update
     void Start()
@@ -14,6 +16,7 @@ public class TaxiManager : MonoBehaviour
         passenger = GameObject.FindGameObjectWithTag("Passenger");
         destination = GameObject.FindGameObjectWithTag("Destination");
         passengerInTaxi = false;
+        //arrow.SetActive(false);
         
     }
 
@@ -33,6 +36,7 @@ public class TaxiManager : MonoBehaviour
         if (other.gameObject.tag == "Passenger")
         {
             passengerInTaxi = true;
+            //arrow.SetActive(true);
         }
     }
 }
