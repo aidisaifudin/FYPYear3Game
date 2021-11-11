@@ -27,7 +27,8 @@ public class CarController : MonoBehaviour
     [SerializeField] private Transform rearLeftWheelTransform;
     [SerializeField] private Transform rearRightWheelTransform;
 
-
+    public float angleBetween = 0.0f;
+    public Transform target;
     private void FixedUpdate()
     {
         GetInput();
@@ -44,10 +45,7 @@ public class CarController : MonoBehaviour
     }
     public void Up()
     {
-        Input.GetButtonDown("Vertical");
-        {
-
-        }
+        
     }
     public void Left()
     {
@@ -95,5 +93,5 @@ public class CarController : MonoBehaviour
         wheelTransform.position = pos;
     }
 
-
+   
 }
