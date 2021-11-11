@@ -42,8 +42,18 @@ public class CarController : MonoBehaviour
         verticalInput = Input.GetAxis(VERTICAL);
         isBreaking = Input.GetKey(KeyCode.Space);
     }
+    public void Up()
+    {
+        Input.GetButtonDown("Vertical");
+        {
 
-    private void HandleMotor()
+        }
+    }
+    public void Left()
+    {
+        verticalInput = Input.GetAxis(VERTICAL);
+    }
+    public void HandleMotor()
     {
         frontLeftWheelCollider.motorTorque = verticalInput * motorForce;
         frontRightWheelCollider.motorTorque = verticalInput * motorForce;
@@ -61,7 +71,7 @@ public class CarController : MonoBehaviour
         rearLeftWheelCollider.brakeTorque = currentbreakForce;
         rearRightWheelCollider.brakeTorque = currentbreakForce;
     }
-    private void HandleSteering()
+    public void HandleSteering()
     {
         currentSteerAngle = maxSteerAngle * horizontalInput;
         frontLeftWheelCollider.steerAngle = currentSteerAngle;

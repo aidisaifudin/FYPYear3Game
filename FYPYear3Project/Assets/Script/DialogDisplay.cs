@@ -15,9 +15,9 @@ public class DialogDisplay : MonoBehaviour {
 	public GameObject speakerRight;
  
 
-	SpeakerUI speakerUILeft;
+	private SpeakerUI speakerUILeft;
 
-	SpeakerUI speakerUIRight;
+	private SpeakerUI speakerUIRight;
 
 	int activeLineIndex = 0;
     private bool conversationStarted = false;
@@ -29,7 +29,7 @@ public class DialogDisplay : MonoBehaviour {
         AdvanceLine();
     }
 
-	void Start() {
+	public void Start() {
 		speakerUILeft = speakerLeft.GetComponent<SpeakerUI>();
 		speakerUIRight = speakerRight.GetComponent<SpeakerUI>();
         
@@ -39,7 +39,7 @@ public class DialogDisplay : MonoBehaviour {
         
 	}
 
-	void Update() {
+	public void Update() {
 		if(Input.GetKeyDown(KeyCode.Space)) {
             AdvanceLine();
 		}
@@ -64,13 +64,24 @@ public class DialogDisplay : MonoBehaviour {
         speakerUIRight.Speaker = conversation.speakerRight;
     }
 	void AdvanceLine() {
-        if (conversation == null) return;
-        if (!conversationStarted) Initialize();
+        if (conversation == null)
+        {
+            return;
+        }
+
+        if (!conversationStarted)
+        {
+            Initialize();
+        }
 
         if (activeLineIndex < conversation.lines.Length)
+        {
             DisplayLine();
-        else { }
-           // AdvancedConversation();
+        }
+        else
+        {
+            AdvancedConversation();
+        }
 
 	}
 
@@ -94,7 +105,7 @@ public class DialogDisplay : MonoBehaviour {
         // and should be three different objects with a standard interface
         if (conversation.question != null)
         {
-            //questionEvent.Invoke(conversation.question);
+            questionEvent.Invoke(conversation.question);
         }
         else if (conversation.nextConversation != null)
             ChangeConversation(conversation.nextConversation);

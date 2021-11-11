@@ -20,7 +20,7 @@ public class ChoiceController : MonoBehaviour
 
         button.transform.SetParent(choiceButtonTemplate.transform.parent);
         button.transform.localScale = Vector3.one;
-        button.transform.localScale = new Vector3(0, index * buttonSpacing, 0);
+        button.transform.localPosition = new Vector3(0, index * buttonSpacing, 0);
         button.name = "Choice" + (index + 1);
         button.gameObject.SetActive(true);
 
@@ -29,7 +29,7 @@ public class ChoiceController : MonoBehaviour
         return choiceController;
     }
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         if (conversationChangeEvent == null)
         {

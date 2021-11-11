@@ -14,7 +14,8 @@ public struct Line {
 public class Conversation : ScriptableObject {
 	public Character speakerLeft;
 	public Character speakerRight;
+ 
+	public Line[] lines;
     public Question question;
     public Conversation nextConversation;
-	public Line[] lines;
 }

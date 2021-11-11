@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 697b5472689bd744d87809d6e6da8660, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
-  text: 
+  text: Question?
   choices:
-  - text: 
-    conversation: {fileID: 0}
-  - text: 
-    conversation: {fileID: 0}
+  - text: Yes
+    conversation: {fileID: 11400000, guid: 3721a6c726566e549b6fa7b8dd07dd36, type: 2}
+  - text: No
+    conversation: {fileID: 11400000, guid: a0fd4c84fa8a6b94f9e2348501ee6136, type: 2}

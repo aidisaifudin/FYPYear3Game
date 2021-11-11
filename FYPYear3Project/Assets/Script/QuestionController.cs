@@ -17,7 +17,7 @@ public class QuestionController : MonoBehaviour
         RemoveChoices();
         question = _question;
         gameObject.SetActive(true);
-        Initialized();
+        Initialize();
     }
     public void Hide(Conversation conversation)
     {
@@ -34,7 +34,7 @@ public class QuestionController : MonoBehaviour
     }
     public void Start() { }
 
-    private void Initialized()
+    private void Initialize()
     {
         questionText.text = question.text;
 

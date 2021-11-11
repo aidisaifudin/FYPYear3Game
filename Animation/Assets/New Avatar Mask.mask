@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Avatar Mask
+  m_Mask: 00000000000000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: gameAsset:biker
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:cSpl_spine01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_elbows01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_elbows01/gameAsset:cl_crvCnt_l_elbow_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_elbows01/gameAsset:cl_crvCnt_l_elbow_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_elbows01/gameAsset:cl_crvCnt_r_elbow_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_elbows01/gameAsset:cl_crvCnt_r_elbow_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_knees01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_knees01/gameAsset:cl_crvCnt_l_knee_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_knees01/gameAsset:cl_crvCnt_l_knee_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_knees01/gameAsset:cl_crvCnt_r_knee_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toHide01/gameAsset:grp_cl_crvCnt_knees01/gameAsset:cl_crvCnt_r_knee_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:extraNodes01/gameAsset:xtra_toShow01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:controlObjects01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:controlObjects01/gameAsset:locOri_cc_l_foot01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:controlObjects01/gameAsset:locOri_cc_r_foot01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:iks01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:iks01/gameAsset:rp_l_arm01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:iks01/gameAsset:rp_l_leg01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:iks01/gameAsset:rp_r_arm01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:iks01/gameAsset:rp_r_leg01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:iks01/gameAsset:spIK_spine01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:grp_locAim_bn_spA01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:grp_locAim_bn_spA01/gameAsset:locAim_bn_spA01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:grp_locAim_bn_spB01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:grp_locAim_bn_spB01/gameAsset:locAim_bn_spB01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:jntDrv_spC01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:jntDrv_spC01/gameAsset:grp_locAim_bn_spC01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:jntDrv_spC01/gameAsset:grp_locAim_bn_spC01/gameAsset:locAim_bn_spC01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:jntDrv_spC01/gameAsset:jntDrv_spD01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:jntDrv_spC01/gameAsset:jntDrv_spD01/gameAsset:grp_locAim_bn_spD01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:jntDrv_spC01/gameAsset:jntDrv_spD01/gameAsset:grp_locAim_bn_spD01/gameAsset:locAim_bn_spD01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntDrv_spA01/gameAsset:jntDrv_spB01/gameAsset:jntDrv_spC01/gameAsset:jntDrv_spD01/gameAsset:jntDrv_spE01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_l_thigh01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_l_thigh01/gameAsset:bn_l_knee_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_l_thigh01/gameAsset:bn_l_knee_a01/gameAsset:bn_l_knee_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_l_thigh01/gameAsset:bn_l_knee_a01/gameAsset:bn_l_knee_b01/gameAsset:bn_l_foot01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_l_thigh01/gameAsset:bn_l_knee_a01/gameAsset:bn_l_knee_b01/gameAsset:bn_l_foot01/gameAsset:bn_l_ball01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_l_thigh01/gameAsset:bn_l_knee_a01/gameAsset:bn_l_knee_b01/gameAsset:bn_l_foot01/gameAsset:bn_l_ball01/gameAsset:be_l_toe01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_r_thigh01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_r_thigh01/gameAsset:bn_r_knee_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_r_thigh01/gameAsset:bn_r_knee_a01/gameAsset:bn_r_knee_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_r_thigh01/gameAsset:bn_r_knee_a01/gameAsset:bn_r_knee_b01/gameAsset:bn_r_foot01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_r_thigh01/gameAsset:bn_r_knee_a01/gameAsset:bn_r_knee_b01/gameAsset:bn_r_foot01/gameAsset:bn_r_ball01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_r_thigh01/gameAsset:bn_r_knee_a01/gameAsset:bn_r_knee_b01/gameAsset:bn_r_foot01/gameAsset:bn_r_ball01/gameAsset:be_r_toe01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:be_spE01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:be_spE01/gameAsset:bn_neck01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:be_spE01/gameAsset:bn_neck01/gameAsset:bn_head01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:be_spE01/gameAsset:bn_neck01/gameAsset:bn_head01/gameAsset:be_head01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:be_spE01/gameAsset:bn_neck01/gameAsset:bn_head01/gameAsset:bn_l_brow01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:be_spE01/gameAsset:bn_neck01/gameAsset:bn_head01/gameAsset:bn_l_brow01/gameAsset:be_l_brow01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:be_spE01/gameAsset:bn_neck01/gameAsset:bn_head01/gameAsset:bn_r_brow01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:be_spE01/gameAsset:bn_neck01/gameAsset:bn_head01/gameAsset:bn_r_brow01/gameAsset:be_r_brow01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_armTwist_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_armTwist_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_armTwist_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_forearmTwist_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_forearmTwist_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_forearmTwist_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_ind_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_ind_a01/gameAsset:bn_l_ind_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_ind_a01/gameAsset:bn_l_ind_b01/gameAsset:bn_l_ind_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_ind_a01/gameAsset:bn_l_ind_b01/gameAsset:bn_l_ind_c01/gameAsset:be_l_ind_d01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_mid_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_mid_a01/gameAsset:bn_l_mid_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_mid_a01/gameAsset:bn_l_mid_b01/gameAsset:bn_l_mid_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_mid_a01/gameAsset:bn_l_mid_b01/gameAsset:bn_l_mid_c01/gameAsset:be_l_mid_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_pinky_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_pinky_a01/gameAsset:bn_l_pinky_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_pinky_a01/gameAsset:bn_l_pinky_b01/gameAsset:bn_l_pinky_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_pinky_a01/gameAsset:bn_l_pinky_b01/gameAsset:bn_l_pinky_c01/gameAsset:be_l_pinky_d01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_ring_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_ring_a01/gameAsset:bn_l_ring_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_ring_a01/gameAsset:bn_l_ring_b01/gameAsset:bn_l_ring_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_ring_a01/gameAsset:bn_l_ring_b01/gameAsset:bn_l_ring_c01/gameAsset:be_l_ring_d01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_thumb_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_thumb_a01/gameAsset:bn_l_thumb_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_thumb_a01/gameAsset:bn_l_thumb_b01/gameAsset:bn_l_thumb_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_l_shld01/gameAsset:be_l_shld01/gameAsset:bn_l_arm01/gameAsset:bn_l_elbow_a01/gameAsset:bn_l_elbow_b01/gameAsset:bn_l_wrist01/gameAsset:bn_l_thumb_a01/gameAsset:bn_l_thumb_b01/gameAsset:bn_l_thumb_c01/gameAsset:be_l_thumb_d01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_armTwist_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_armTwist_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_armTwist_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_forearmTwist_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_forearmTwist_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_forearmTwist_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_ind_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_ind_a01/gameAsset:bn_r_ind_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_ind_a01/gameAsset:bn_r_ind_b01/gameAsset:bn_r_ind_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_ind_a01/gameAsset:bn_r_ind_b01/gameAsset:bn_r_ind_c01/gameAsset:be_r_ind_d01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_mid_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_mid_a01/gameAsset:bn_r_mid_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_mid_a01/gameAsset:bn_r_mid_b01/gameAsset:bn_r_mid_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_mid_a01/gameAsset:bn_r_mid_b01/gameAsset:bn_r_mid_c01/gameAsset:be_r_mid_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_pinky_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_pinky_a01/gameAsset:bn_r_pinky_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_pinky_a01/gameAsset:bn_r_pinky_b01/gameAsset:bn_r_pinky_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_pinky_a01/gameAsset:bn_r_pinky_b01/gameAsset:bn_r_pinky_c01/gameAsset:be_r_pinky_d01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_ring_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_ring_a01/gameAsset:bn_r_ring_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_ring_a01/gameAsset:bn_r_ring_b01/gameAsset:bn_r_ring_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_ring_a01/gameAsset:bn_r_ring_b01/gameAsset:bn_r_ring_c01/gameAsset:be_r_ring_d01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_thumb_a01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_thumb_a01/gameAsset:bn_r_thumb_b01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_thumb_a01/gameAsset:bn_r_thumb_b01/gameAsset:bn_r_thumb_c01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:globalMove01/gameAsset:joints01/gameAsset:jntRoot_player01/gameAsset:trnsPrsv_bn_spA01/gameAsset:bn_spA01/gameAsset:bn_spB01/gameAsset:bn_spC01/gameAsset:bn_spD01/gameAsset:bn_r_shld01/gameAsset:be_r_shld01/gameAsset:bn_r_arm01/gameAsset:bn_r_elbow_a01/gameAsset:bn_r_elbow_b01/gameAsset:bn_r_wrist01/gameAsset:bn_r_thumb_a01/gameAsset:bn_r_thumb_b01/gameAsset:bn_r_thumb_c01/gameAsset:be_r_thumb_d01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:model01
+    m_Weight: 1
+  - m_Path: gameAsset:biker/gameAsset:model01/gameAsset:player_geo
+    m_Weight: 1
+  - m_Path: gameAsset:grp_weapons01
+    m_Weight: 1
+  - m_Path: gameAsset:grp_weapons01/gameAsset:grpAnim_weaponsPIV01
+    m_Weight: 1
+  - m_Path: gameAsset:grp_weapons01/gameAsset:grpAnim_weaponsPIV01/gameAsset:shotgun_geo
+    m_Weight: 1
