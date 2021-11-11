@@ -37,7 +37,6 @@ public class TaxiManager : MonoBehaviour
         {
             passengerInTaxi = true;
             //arrow.SetActive(true);
-            Earnings.endOfTrip.EarnMoney();
         }
     }
 }

@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8329772ae7502ab42a52200b7e6c519a, type: 3}
   m_Name: TheftConvo
   m_EditorClassIdentifier: 
-  speakerLeft: {fileID: 0}
-  speakerRight: {fileID: 0}
+  speakerLeft: {fileID: 11400000, guid: a77978a9c13073f48a68d3af11922414, type: 2}
+  speakerRight: {fileID: 11400000, guid: 5a72a409eb12edd45b6c16dadb00869e, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: a77978a9c13073f48a68d3af11922414, type: 2}
+    text: Oh no my car is gone !
+  - character: {fileID: 11400000, guid: a77978a9c13073f48a68d3af11922414, type: 2}
+    text: Oh no my car is gone !
+  - character: {fileID: 11400000, guid: 5a72a409eb12edd45b6c16dadb00869e, type: 2}
+    text: Thats why buy insurance bro
   question: {fileID: 0}
   nextConversation: {fileID: 0}
-  lines:
-  - character: {fileID: 0}
-    text: Meanwhile.....
-  - character: {fileID: 0}
-    text: Oh no my car is gone
