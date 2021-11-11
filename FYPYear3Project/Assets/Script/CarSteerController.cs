@@ -25,8 +25,8 @@ public class CarSteerController : MonoBehaviour
     {
 
         float motorT = Input.GetAxis("Vertical") * maxSpeed;
-        float steerT = Input.GetAxis("Horizontal") * maxSteer;
-       // float steerT = steerWheelsFromMobile * maxSteer;
+        //float steerT = Input.GetAxis("Horizontal") * maxSteer;
+        float steerT = steerWheelsFromMobile * maxSteer;
 
 
 
@@ -96,25 +96,5 @@ public class CarSteerController : MonoBehaviour
 
 
     }
-    public void forward()
-    {
-
-
-        if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.01f)
-        {
-
-            Back_Left_Wheel_Component.brakeTorque = 0;
-            Back_Right_Wheel_Component.brakeTorque = 0;
-
-        }
-        else
-        {
-
-            Back_Left_Wheel_Component.brakeTorque = 400f;
-            Back_Right_Wheel_Component.brakeTorque = 400f;
-
-        }
-        Debug.Log("Push");
-    }
-
+  
 }
